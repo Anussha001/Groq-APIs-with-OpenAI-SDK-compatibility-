@@ -1,18 +1,18 @@
-# 🚀 Groq Conversation Management & Information Extraction
+# Groq Conversation Management & Information Extraction
 
 This project demonstrates advanced conversation management and structured information extraction using the **Groq API’s OpenAI-compatible SDK**.
 
 ---
 
-## ✅ Features
+## Features
 
-- 💬 **Conversation History Management**  
+-  **Conversation History Management**  
   Manage conversation flow with:
   - Periodic summarization after every _k-th_ turn
   - Character and turn-based truncation
   - Intelligent summary replacement of older messages
 
-- 🧱 **JSON Schema-based Information Extraction**  
+-  **JSON Schema-based Information Extraction**  
   Extract structured personal data from chat conversations, including:
   - Name
   - Email
@@ -20,12 +20,12 @@ This project demonstrates advanced conversation management and structured inform
   - Location
   - Age
 
-- ✅ **Robust Data Validation**  
+-  **Robust Data Validation**  
   Validates extracted fields (e.g., correct email format, valid age range).
 
 ---
 
-## ⚡ Technology Stack
+## Technology Stack
 
 - Python (Standard Libraries)
 - OpenAI-compatible Groq SDK
@@ -33,9 +33,9 @@ This project demonstrates advanced conversation management and structured inform
 
 ---
 
-## ⚡ Setup Instructions
+## Setup Instructions
 
-1️⃣ Clone the repository:
+**Clone the repository:**
 ```bash
-git clone https://github.com/your-username/groq-conversation-extraction.git
+git clone https://github.com/Anussha001/Groq-APIs-with-OpenAI-SDK-compatibility-.git
 cd groq-conversation-extraction
