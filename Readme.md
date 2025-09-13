@@ -38,4 +38,4 @@ This project demonstrates advanced conversation management and structured inform
 **Clone the repository:**
 ```bash
 git clone https://github.com/Anussha001/Groq-APIs-with-OpenAI-SDK-compatibility-.git
-cd groq-conversation-extraction
+cd Groq-APIs-with-OpenAI-SDK-compatibility-
