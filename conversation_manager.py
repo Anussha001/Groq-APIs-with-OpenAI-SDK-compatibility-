@@ -5,9 +5,8 @@ from config import Config
 
 client = OpenAI(api_key=Config.GROQ_API_KEY, base_url=Config.GROQ_BASE_URL)
 
-# =============================================================================
 # TASK 1: CONVERSATION MANAGEMENT WITH SUMMARIZATION
-# =============================================================================
+
 
   class ConversationManager:
     """
@@ -76,10 +75,10 @@ client = OpenAI(api_key=Config.GROQ_API_KEY, base_url=Config.GROQ_BASE_URL)
             # Keep only the last few messages and replace older ones with summary
             self.conversation_history = self.conversation_history[-2:]
             
-            print(f"✅ Summarization completed after {self.turn_count} turns")
+            print(f" Summarization completed after {self.turn_count} turns")
             
         except Exception as e:
-            print(f"❌ Summarization failed: {str(e)}")
+            print(f"  Summarization failed: {str(e)}")
     
     def _format_conversation_for_summary(self) -> str:
         """Format conversation history for summarization"""
